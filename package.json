@@ -1,0 +1,11 @@
+{
+  "name": "taskstack-server",
+  "version": "1.0.0",
+  "description": "Server for the Taskstack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sascha Reimann",
+  "license": "ISC"
+}
