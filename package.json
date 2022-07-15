@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.1",
+    "jquery-colorbox": "^1.6.4",
     "sqlite3": "^5.0.9"
   }
 }
