@@ -1,17 +1,18 @@
 {
-  "name": "taskstack-server",
-  "version": "1.0.0",
-  "description": "Server for the Taskstack",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Sascha Reimann",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.18.1",
-    "jquery-colorbox": "^1.6.4",
-    "md5": "^2.3.0",
-    "sqlite3": "^5.0.9"
-  }
+    "name": "taskstack-server",
+    "version": "1.0.0",
+    "description": "Server for the Taskstack",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Sascha Reimann",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^16.0.1",
+        "express": "^4.18.1",
+        "jquery-colorbox": "^1.6.4",
+        "md5": "^2.3.0",
+        "sqlite3": "^5.0.9"
+    }
 }
