@@ -4,8 +4,7 @@
     "description": "Server for the Taskstack",
     "main": "index.js",
     "scripts": {
-        "start": "nodemon index.js",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "start": "nodemon -e js,ejs"
     },
     "author": "Sascha Reimann",
     "license": "ISC",
