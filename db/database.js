@@ -1,6 +1,6 @@
 require("dotenv").config();
 const fs = require('fs');
-const path = "db\\init.sql";
+const path = "db/init.sql";
 
 
 
