@@ -1,17 +1,29 @@
 require("dotenv").config();
 const fs = require('fs');
 const path = "db/init.sql";
-
-
-
 const sqlite3 = require('sqlite3').verbose();
-const db = new sqlite3.Database(process.env.DATABASE, (err) => {
-    if (err) {
-        return console.error(err.message);
-    }
-    console.log('Connected to database.');
-});
+let db;
 module.exports = {
+    connectDb: ()=>{
+        db = new sqlite3.Database(process.env.DATABASE, (err) => {
+            if (err) {
+                return console.error(err.message);
+            }
+            console.log('Connected to database.');
+        });
+    },
+    newTask: (task) => {
+        /**
+         * TODO
+         */
+        throw new Error("Not yet implemented");
+    },
+    updateTask: (task) => {
+        /**
+         * TODO
+         */
+        throw new Error("Not yet implemented");
+    },
     initDb: () => {
         let dataSql;
         try {
