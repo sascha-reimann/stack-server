@@ -6,3 +6,7 @@
 
 ### 16.07.2022 
 * Using EJS as view engine
+
+### 19.07.2022
+# Reboot Project based on TypeScript
+* TS set up
